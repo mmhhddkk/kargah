@@ -1,0 +1,92 @@
+body{
+    background-image: url("Jowhareh_galleries_5_poster_ac8b6c05-aa6d-44c3-ae67-f78f74ff2e05.jpeg");
+    padding: 0; /*حاشیه*/
+    margin: 0; /*فضای داخلی*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex; 
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none; /* نقطه هارو ور میداره */
+    margin: 0;
+    padding: 0;
+    justify-content: right;
+}
+
+.navbar li{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    background-color: rgb(11, 14, 86);
+    text-decoration: none;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.navbar a:hover{
+    background-color: blueviolet;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 1)
+}
+
+h1{
+    text-align: center;
+}
+
+.bio{
+    padding-right: 1%;
+    margin: 1%;
+    font-size: 24px;
+}
+
+.maharat{
+    display: flex;
+    margin-top:  0;
+    font-size: 20px;
+}
+
+.maharat li{
+    margin-top: 5%;
+}
+
+.maharat h3{
+    font-size: 28px;
+    margin: 2%;
+}
+
+h2{
+    padding-right: 1%;
+    padding-top: 5%;
+    font-size: 28px;
+}
+.container{
+    width: 80%;
+    margin: 1% auto;
+    padding-right: 1%;
+}
+.aks{
+    text-align: center;
+}
+.aks img{
+    width: 50%;
+    height: 10%;
+    padding-top: 5%;
+    margin: 5%;
+    object-position: center;
+}
